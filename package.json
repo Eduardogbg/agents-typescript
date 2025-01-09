@@ -1,0 +1,19 @@
+{
+  "name": "agents",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@openpond/sdk": "^0.2.0",
+    "@turnkey/sdk-server": "^1.7.1",
+    "@turnkey/viem": "^0.6.7",
+    "axios": "^1.7.9",
+    "openai": "^4.77.4",
+    "viem": "^2.22.5"
+  }
+}
